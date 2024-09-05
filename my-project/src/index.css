@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root{
+    --grey: #f5f5f5;
+}
+
+.category-List a{
+    font-size: 13px;
+    gap: 6px;
+}
+.category-List a:hover{
+    color: #e8006c;
+    font-weight: 600;
+}
